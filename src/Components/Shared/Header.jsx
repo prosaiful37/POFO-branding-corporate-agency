@@ -11,19 +11,19 @@ const Header = () => {
             <img
               src={logo}
               className="w-24 md:h-[26px] md:w-[105px]"
-              alt="Flowbite Logo"
+              alt="site logo"
             />
           </a>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
+            <span class="sr-only">Open main menu</span>
             <svg
-              className="w-6 h-6"
+              class="w-6 h-6"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -36,7 +36,7 @@ const Header = () => {
               ></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
@@ -89,24 +89,24 @@ const Header = () => {
               </li>
               <div className="hidden md:border border-l-2 md:h-full "></div>
               <div className="hidden md:flex gap-5">
-              <li>
-                <a href="">
-                  {" "}
-                  <FaFacebookF className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaFacebookF>{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <FaTwitter className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaTwitter>{" "}
-                </a>
-              </li>
-              <li>
-                <a href="">
-                  {" "}
-                  <FaDribbble className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaDribbble>{" "}
-                </a>
-              </li>
+                <li>
+                  <a href="">
+                    {" "}
+                    <FaFacebookF className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaFacebookF>{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    {" "}
+                    <FaTwitter className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaTwitter>{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    {" "}
+                    <FaDribbble className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaDribbble>{" "}
+                  </a>
+                </li>
               </div>
             </ul>
           </div>
