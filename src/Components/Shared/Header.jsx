@@ -87,9 +87,8 @@ const Header = () => {
                   Pricing
                 </a>
               </li>
-              <div className="hidden md:border border-l-2 md:h-full "></div>
-              <div className="hidden md:flex gap-5">
-                <li>
+              <div className="hidden md:flex gap-5 border-l-2">
+                <li className="pl-3">
                   <a href="">
                     {" "}
                     <FaFacebookF className="text-gray-700 block py-2 pl-3 pr-4 text-gray-700 block py-2 pl-3 pr-4 text-black uppercase hover:text-gray-400 md:border-0 md:p-0"></FaFacebookF>{" "}
