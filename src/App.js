@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="">
       <Header></Header>
-        <Home className=" md:w-4/5 mx-auto"></Home>
+        <Home></Home>
       <Footer></Footer>
     </div>
   );

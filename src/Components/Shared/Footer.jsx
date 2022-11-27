@@ -3,7 +3,7 @@ import logoFooter from "../../Images/logo-white.png"
 
 const Footer = () => {
   return (
-    <div className="bg-[#1c1c1c] py-[5%]">
+    <div className="bg-[rgb(28,28,28)] py-[5%]">
       <div className="footer container w-full py-[30px] md:p-0 md:w-4/5 mx-auto mb-[25px]">
         <div className="footer-top pb-[40px]">
           <div className="grid md:grid-cols-3 gap-3 justify-items-center">
