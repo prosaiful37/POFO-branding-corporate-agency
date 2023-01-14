@@ -39,13 +39,18 @@ const Agency = () => {
                 consequatur in porro provident inventore rem, quam officia nihil
                 voluptas voluptatum enim. Eius?
               </p>
-              <a
+              {/* <a
                 className="uppercase font-bold text-[#232323] text-[12px] hover:text-[#ff214f]"
                 href=""
               >
                 Our Company History 
               <FaLongArrowAltRight className="text-[#ff214f]"></FaLongArrowAltRight>
-              </a>
+              </a> */}
+              <div>
+              <button className="flex gap-2 items-center uppercase hover:text-[#ff214f] text-[12px] font-bold text-[#232323]">
+              Our Company History  <FaLongArrowAltRight></FaLongArrowAltRight>{" "}
+              </button>
+            </div>
             </div>
           </div>
         </div>
