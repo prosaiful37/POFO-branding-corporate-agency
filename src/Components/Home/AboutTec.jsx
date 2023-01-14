@@ -1,30 +1,27 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import agency1 from "../../Images/banner/homepage-4-section1-img.jpg";
+import AboutImage from "../../Images/banner/homepage-4-section2-img.jpg";
 
-const Agency = () => {
+const AboutTec = () => {
   return (
-    <div className="md:w-4/5 mx-auto py-10">
-      <div className="agency">
+    <div className="md:w-4/5 mx-auto md:py-[130px]">
+      <div className="aboutTec">
         <div className="container">
           <div className="grid md:grid-cols-3 gap-5">
             <div>
-              <div>
-                <h3 className="text-[#d6d5d5] font-bold w-[50] md:w-[100] mb-5 text-[48px]">
-                  01
-                </h3>
-                <h5 className="uppercase font-bold inline w-[75] lg:w-[90] md:w-[50]  md-block text-[#232323] text-[32px] leading-10">
-                  We are <br /> digital media <br /> agency.
-                </h5>
-              </div>
+              <h3 className="text-[#d6d5d5] font-bold w-[50] md:w-[100] mb-5 text-[48px]">
+                02
+              </h3>
+              <h5 className="uppercase font-bold inline w-[75] lg:w-[90] md:w-[50]  md-block text-[#232323] text-[32px] leading-10">
+              WE CREATE <br /> DESIGNS AND <br /> TECHNOLOGY.
+              </h5>
             </div>
             <div className="px-[15px]">
-              <img className="w-[100] pr-[10%]" src={agency1} alt="" />
+              <img className="w-[100] pr-[10%]" src={AboutImage} alt="" />
             </div>
             <div>
               <p className="mb-[25px] text-[#232323] text-[18px] leading-6 text-justify">
-                We always stay on the cutting edge of digital, so that our
-                clients maintain their competitive advantage online.
+              We have our own developers and technical producers who can confidently integrate & execute ideas.
               </p>
               <p className="mb-[25px] text-[#6f6f6f]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -43,7 +40,7 @@ const Agency = () => {
               
               <div>
               <button className="flex gap-2 items-center uppercase hover:text-[#ff214f] text-[12px] font-bold text-[#232323]">
-              Our Company History  <FaLongArrowAltRight className="text-[#ff214f]"></FaLongArrowAltRight>{" "}
+              OUR CREATIVE PEOPLE <FaLongArrowAltRight className="text-[#ff214f]"></FaLongArrowAltRight>{" "}
               </button>
             </div>
             </div>
@@ -54,4 +51,4 @@ const Agency = () => {
   );
 };
 
-export default Agency;
+export default AboutTec;

@@ -22,7 +22,7 @@ const Skills = () => {
 
             <div>
               <button className="flex gap-2 items-center uppercase hover:text-[#ff214f] text-[12px] font-bold text-[#232323]">
-                Development Services <FaLongArrowAltRight></FaLongArrowAltRight>{" "}
+                Development Services <FaLongArrowAltRight className="text-[#ff214f]"></FaLongArrowAltRight>{" "}
               </button>
             </div>
           </div>
