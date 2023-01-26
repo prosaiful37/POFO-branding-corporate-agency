@@ -1,0 +1,31 @@
+.team {
+  position: relative;
+  width: 100%;
+}
+.overlays {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(235, 19, 76, 0.685);
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.team:hover .overlays {
+  visibility: visible;
+  opacity: 1;
+}
+.icon-social {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  width: 100%;
+}
+.icon-social a {
+  color: #ffff;
+}
