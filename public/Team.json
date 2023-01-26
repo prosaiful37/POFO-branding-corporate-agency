@@ -1,0 +1,34 @@
+[
+    
+  
+    {
+        "img" : "https://i.ibb.co/dMczQRd/team13.jpg",
+        "name" : "Hugh Macleod",
+        "title" : "Creative Director"
+    },
+    {
+        "img" : "https://i.ibb.co/yPnhKCW/team14.jpg",
+        "name" : "Jhon Macleod",
+        "title" : "Creative Director"
+    },
+    {
+        "img" : "https://i.ibb.co/nmnshQR/team15.jpg",
+        "name" : "Sara Smith",
+        "title" : "Creative Studio Head"
+    },
+    {
+        "img" : "https://i.ibb.co/nM4DmrK/team16.jpg",
+        "name" : "Bill Gardner",
+        "title" : "Co-Founder / Design"
+    },
+    {
+        "img" : "https://i.ibb.co/DKPSQRs/team17.jpg",
+        "name" : "Joshua Brewer",
+        "title" : "Creative Studio Head"
+    },
+    {
+        "img" : "https://i.ibb.co/4N0JwhK/team18.jpg",
+        "name" : "Jeremy Dupont",
+        "title" : "Creative Director"
+    }
+]
