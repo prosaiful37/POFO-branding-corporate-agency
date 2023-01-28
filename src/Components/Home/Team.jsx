@@ -21,9 +21,11 @@ const Team = () => {
       <div className="teams">
         <div className="container grid md:grid-cols-2">
           <div>
-            <h3 className="text-[#d6d5d5] font-bold w-[50] md:w-[100] mb-5 text-[48px]">
+            <h3 className="text-[#d6d5d5] font-bold w-[50] md:w-[100] mb-5 text-[48px] ">
               03
+              {/* <div className="lines before:absoulute top-[53%] border-b border-gray-800 opacity-50  "></div> */}
             </h3>
+            
             <h5 className="uppercase font-bold inline w-[75] lg:w-[90] md:w-[50]  md-block text-[#232323] text-[32px] leading-10">
               Meet some of <br /> creative <br /> people.
             </h5>
