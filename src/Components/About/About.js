@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutTop from './AboutTop';
 
 const About = () => {
     return (
         <div>
-            <h2>About</h2>
+            <AboutTop></AboutTop>
         </div>
     );
 };
